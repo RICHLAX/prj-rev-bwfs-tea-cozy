@@ -1,0 +1,178 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-family: Verdana;
+}
+
+/*fixed header with navigation*/
+
+.container {
+  display: flex;
+  width: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container.header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px seashell;
+  position: fixed;
+  z-index: 100;
+  background-color: black;
+  height: 69px;
+}
+
+.container.logo {
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.container.navigation {
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.container.navigation ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.container.navigation ul li a {
+  color: white;
+  text-decoration: underline;
+  font-weight: strong;
+}
+
+/* articles nested flexboxes*/
+
+.container.jumbo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: inherit;
+}
+
+.container.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.box {
+}
+
+.justifybox {
+  display: flex;
+  justify-content: center;
+}
+
+.container.tea {
+
+}
+
+.teabox {
+  width: inherit;
+}
+
+.container.month {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container.cardholder {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container.photo {
+  margin: 0px;
+  padding: 0px;
+}
+.container.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.cardimage {
+  height: 200px;
+  width: 300px;
+  padding:0px;
+  margin: 0px;
+}
+
+.cardtext {
+  text-align: center;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.locbox {
+  width: inherit;
+}
+
+.container.locations {
+background-image: url(../images/img-locations-background.jpg);
+background-position: center;
+height: 500px;
+width: 1200px;
+align-items: center;
+}
+
+.container.month {
+  margin: 0px 0px 15px 0px;
+  padding: 0px;
+}
+
+.container.cardholder {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container.loccard {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+.container.contact {
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+}
+#mission {
+  background-color: black;
+  width:inherit;
+  height: 130px;
+  text-align: center;
+  overflow: visible;
+}
+
+#logoImage {
+  max-height: 50px;
+  max-width: auto;
+}
+
+#copyright {
+  margin-left: 10px;
+}
